@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Rubik&display=swap');
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+*{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.order{
+    padding: 50px;
+}
+form{
+    padding-left: 10px;
+}
+.order form{
+    max-width: 102rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0,0,0,.2);
+    background: #fff;
+    padding: 4.5rem;
+    line-height: 1.8;
+    color: var(--light-color); 
+}
+
+.order form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.order form .inputBox .input{
+    width: 49%;
+}
+.order form .inputBox .input span{
+    display: block;
+    padding:.5rem 0;
+    font-size: 20px;
+    color: var(--light-color);
+}
+.order form .inputBox .input input,
+.order form .inputBox .input textarea{
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 15px;
+    color: var(--black);
+    text-transform: none;
+    margin-bottom: .1rem;
+    width: 100%;
+}
+
+.order form .inputBox .input textarea{
+    height: 10rem;
+    resize: none;
+}
+
+.order form  .btn{
+    margin-top: 0;
+}
+@media (max-width:768px){
+    .order form .inputBox .input{
+        width: 100%;
+    }
+    .order form .btn{
+     text-align: center;    
+    }
+}

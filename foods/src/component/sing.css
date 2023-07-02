@@ -1,0 +1,123 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+.sing_hero{
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form_box{
+   width: 380px;
+   height: 480px;
+   position: relative;
+   margin: 6% auto;
+   background: #fff;
+   padding: 5px;
+   overflow: hidden;
+ }
+ 
+.button_box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #884a311f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+   top: 0;
+   left: 0;
+   position: absolute;
+   width: 110px;
+   height: 100%;
+   background: #27ae60;
+   border-radius: 30px;
+    transition: .5s;
+}
+
+.social_icons{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social_icons a{
+    width: 30px;
+    margin: 0 12px;
+     box-shadow: 0 0 50px 0 #7f7f7f3d; 
+    font-size: 30px;
+    border-radius: 50%;
+    color:#192a56;
+}
+
+.social_icons a:hover{
+   color: #27ae60;
+}
+
+.input_group{
+ top: 180px;
+ position: absolute;
+ width: 280px;
+ transition: .5s;
+}
+
+.input_field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left:0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.submit_btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: #192a56;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.submit_btn:hover{
+    background: #27ae60;
+    color: #fff;
+
+}
+
+.check_box{
+    margin: 30px 10px 30px 0;
+}
+
+.input_group span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    padding-left: 7px;
+    position: absolute;
+}     
+#login{
+ left: 50px;
+}
+#register{
+    left: 450px;
+}
